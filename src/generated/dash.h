@@ -3,6 +3,9 @@
 
 struct dashboardData
 {
+	uint16_t mariosNummer;
+	char felixString[32];
+	bool LED;
 };
 
 #endif

@@ -1,9 +1,20 @@
 [
     {
-        "name": "projectName",
-        "label": "Project Name",
+        "name": "pollingInMs",
+        "label": "Polling Time in MS",
+        "type": "float",
+        "value": 100
+    },
+    {
+        "name": "backendUrl",
+        "label": "Backend URL",
         "type": "char",
-        "length": 32,
-        "value": "ESP8266 IoT Framework"
+        "length": 32
+    },
+    {
+        "name": "setupRan",
+        "label": "Setup",
+        "type": "bool",
+        "value": false
     }
 ]

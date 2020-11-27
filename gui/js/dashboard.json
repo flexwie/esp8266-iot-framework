@@ -1,3 +1,20 @@
 [
-    
+    {
+        "name": "mariosNummer",
+        "type": "uint16_t",
+        "direction": "display",
+        "display": "graph",
+        "xaxis": 20
+    },
+    {
+        "name": "felixString",
+        "type": "char",
+        "length": 32,
+        "direction": "control"
+    },
+    {
+        "name": "LED",
+        "type": "bool",
+        "direction": "control"
+    }
 ]
